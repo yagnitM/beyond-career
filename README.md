@@ -26,8 +26,8 @@ I pushed the frontend folder to a public GitHub repository. Imported the repo to
 # Credits
 - Used images from Pexels for Testimonial sections.
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-4.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+![Hero Section](image.png)
+![About Section](image-1.png)
+![Services Section](image-4.png)
+![Testimonials Section](image-2.png)
+![Contact Section](image-3.png)
