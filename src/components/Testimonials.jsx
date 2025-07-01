@@ -1,4 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import Image1 from '../assets/Image1.png';
+import Image2 from '../assets/Image2.png';
+import Image3 from '../assets/Image3.png';
+import Image4 from '../assets/Image4.png';
+import Image5 from '../assets/Image5.png';
 
 const Testimonials = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -8,7 +13,7 @@ const Testimonials = () => {
       name: "Priya Sharma",
       role: "Software Engineer at Google",
       university: "IIT Delhi",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      image: Image5,
       quote: "Beyond Career transformed my approach to job hunting. Their mentorship program connected me with industry experts who guided me through every step of landing my dream job at Google.",
       rating: 5,
       achievement: "₹45L Package"
@@ -17,7 +22,7 @@ const Testimonials = () => {
       name: "Arjun Patel",
       role: "Product Manager at Microsoft",
       university: "IIT Bombay",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      image: Image1,
       quote: "The career guidance sessions were incredibly insightful. Beyond Career helped me pivot from engineering to product management, and I couldn't be happier with my career trajectory.",
       rating: 5,
       achievement: "Career Pivot Success"
@@ -26,7 +31,7 @@ const Testimonials = () => {
       name: "Sneha Gupta",
       role: "Data Scientist at Amazon",
       university: "IIT Kharagpur",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      image: Image3,
       quote: "The internship opportunities through Beyond Career were exceptional. I got hands-on experience that directly led to my full-time offer. Their support throughout the process was outstanding.",
       rating: 5,
       achievement: "Direct PPO"
@@ -35,7 +40,7 @@ const Testimonials = () => {
       name: "Rahul Singh",
       role: "Startup Founder",
       university: "IIT Madras",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      image: Image4,
       quote: "Beyond Career's community engagement helped me network with like-minded entrepreneurs. The connections I made through their platform were instrumental in launching my startup.",
       rating: 5,
       achievement: "$2M Funding Raised"
@@ -44,7 +49,7 @@ const Testimonials = () => {
       name: "Anita Reddy",
       role: "Consultant at McKinsey",
       university: "IIT Kanpur",
-      image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=150&h=150&fit=crop&crop=face",
+      image: Image2,
       quote: "The interview preparation and case study practice sessions were game-changers. Beyond Career's structured approach helped me crack the most challenging consulting interviews.",
       rating: 5,
       achievement: "Top-tier Consulting"

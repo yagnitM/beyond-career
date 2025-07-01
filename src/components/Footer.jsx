@@ -28,7 +28,7 @@ const Footer = () => {
 
           <div className="flex items-center space-x-6 text-sm">
             <a
-              href="https://www.linkedin.com/company/beyond-career"
+              href="https://linkedin.com/company/beyondgradess"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-1 text-blue-200 hover:text-white hover:scale-105 transition-all duration-300"

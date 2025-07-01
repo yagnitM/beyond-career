@@ -51,7 +51,7 @@ const About = () => {
           <div className="bg-gradient-to-br from-blue-600 to-purple-700 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-6">Founded by IIT Kharagpur Visionaries</h3>
             <p className="text-blue-100 mb-6 leading-relaxed">
-              Beyond Career was born from the innovative minds of dynamic students at IIT Kharagpur, 
+              Founded by Mahavir Kumar, an alumnus of IIT Kharagpur, Beyond Career was born from the innovative minds of dynamic students at IIT Kharagpur, 
               one of India's premier technical institutions. Our founders recognized the gap between 
               academic excellence and real-world career success.
             </p>

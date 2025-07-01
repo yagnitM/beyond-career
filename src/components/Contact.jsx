@@ -23,7 +23,6 @@ const Contact = () => {
     e.preventDefault();
     setIsLoading(true);
     
-    // Console log the form data
     console.log('Form Submission Data:');
     console.log('Name:', formData.name);
     console.log('Surname:', formData.surname);
@@ -31,13 +30,11 @@ const Contact = () => {
     console.log('Subject:', formData.subject);
     console.log('Message:', formData.message);
     
-    // Simulate form submission
     setTimeout(() => {
       setIsLoading(false);
       setIsSubmitted(true);
       setFormData({ name: '', surname: '', email: '', subject: '', message: '' });
       
-      // Reset success message after 3 seconds
       setTimeout(() => setIsSubmitted(false), 3000);
     }, 1000);
   };
@@ -53,7 +50,6 @@ const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          {/* Contact Info */}
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">Contact Information</h3>
@@ -90,7 +86,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Social Media Links */}
             <div>
               <h4 className="text-xl font-semibold text-gray-900 mb-4">Follow Us</h4>
               <div className="flex space-x-4">
@@ -138,7 +133,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact Form */}
           <div className="bg-white rounded-2xl shadow-xl p-8">
             {isSubmitted && (
               <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center space-x-3">
