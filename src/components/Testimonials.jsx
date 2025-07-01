@@ -10,7 +10,7 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: "Priya Sharma",
+      name: "Khushi Kumari",
       role: "Software Engineer at Google",
       university: "IIT Delhi",
       image: Image5,
@@ -19,7 +19,7 @@ const Testimonials = () => {
       achievement: "₹45L Package"
     },
     {
-      name: "Arjun Patel",
+      name: "Ashish Saraf",
       role: "Product Manager at Microsoft",
       university: "IIT Bombay",
       image: Image1,
@@ -28,7 +28,7 @@ const Testimonials = () => {
       achievement: "Career Pivot Success"
     },
     {
-      name: "Sneha Gupta",
+      name: "Ruhi Mishra",
       role: "Data Scientist at Amazon",
       university: "IIT Kharagpur",
       image: Image3,
@@ -37,7 +37,7 @@ const Testimonials = () => {
       achievement: "Direct PPO"
     },
     {
-      name: "Rahul Singh",
+      name: "Rahul Sharma",
       role: "Startup Founder",
       university: "IIT Madras",
       image: Image4,
@@ -46,7 +46,7 @@ const Testimonials = () => {
       achievement: "$2M Funding Raised"
     },
     {
-      name: "Anita Reddy",
+      name: "Swati Gupta",
       role: "Consultant at McKinsey",
       university: "IIT Kanpur",
       image: Image2,
