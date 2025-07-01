@@ -1,6 +1,11 @@
 import React from 'react';
 
 const Services = () => {
+  const scrollToSection = (sectionId) => {
+    document.getElementById(sectionId)?.scrollIntoView({ 
+      behavior: 'smooth' 
+    });
+  };
   const services = [
     {
       icon: (
@@ -99,10 +104,10 @@ const Services = () => {
             Your journey to success starts with a single step.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-300 shadow-lg">
+            <button onClick={() => scrollToSection('contact')} className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-300 shadow-lg">
               Get Started Today
             </button>
-            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300">
+            <button onClick={() => scrollToSection('about')} className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300">
               Learn More
             </button>
           </div>
